@@ -1,0 +1,15 @@
+current directory: /home/george/Desktop/Development/Assgnments/Practice-Projects/Savvanah-Assignment/photos-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/george/Desktop/Development/Assgnments/Practice-Projects/Savvanah-Assignment/photos-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240129-67589-1e6djhp sitelibdir\=./.gem.20240129-67589-1e6djhp clean
+
+current directory: /home/george/Desktop/Development/Assgnments/Practice-Projects/Savvanah-Assignment/photos-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240129-67589-1e6djhp sitelibdir\=./.gem.20240129-67589-1e6djhp
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/george/Desktop/Development/Assgnments/Practice-Projects/Savvanah-Assignment/photos-backend/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240129-67589-1e6djhp sitelibdir\=./.gem.20240129-67589-1e6djhp install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20240129-67589-1e6djhp
