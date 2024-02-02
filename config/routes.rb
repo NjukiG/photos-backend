@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   resources :photos
   resources :albums
-  resources :publishers
+  resources :publishers do
+    resources :albums, only: [:show, :index]
+  end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

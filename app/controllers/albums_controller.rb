@@ -17,7 +17,7 @@ class AlbumsController < ApplicationController
      # GET /album/:id
     def show
         album = find_album
-        render json: album
+        render json: album, include: :photos
     end
 
      # PATCH /albums/:id

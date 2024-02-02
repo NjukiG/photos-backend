@@ -16,7 +16,7 @@ class PublishersController < ApplicationController
     # GET /publisher/:id
     def show
          publisher = find_publisher
-        render json: publisher    
+        render json: publisher, include: :albums
     end
     
         # PATCH /publisher/:id
