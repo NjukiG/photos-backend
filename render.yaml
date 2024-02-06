@@ -1,8 +1,8 @@
 databases:
-  - name: photosAPI
+  - name: photos
     ipAllowList: []
     databaseName: photos
-    user: Njuki
+    user: photos
 
 services:
   - type: web
