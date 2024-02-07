@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :photos
-  # resources :albums
+  resources :albums
   resources :publishers do
     resources :albums, only: [:show, :index]
   end
